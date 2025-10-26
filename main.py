@@ -3,6 +3,6 @@ def isOdd(param):
     return isinstance(param, int) and param % 2 != 0
 param = input("请输入一个参数：")
 if isOdd(param):
-    print("Truse")
+    print("True")
 else:
     print("False")
